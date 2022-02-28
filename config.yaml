@@ -1,0 +1,37 @@
+repositories:
+  envs:
+    url: git@git.egnyte-internal.com:sddc/envs.git
+    path: envs
+    worktrees:
+      production:
+        branch: production
+        path: production
+      qa:
+        branch: qa
+        path: qa
+  hiera:
+    url: git@git.egnyte-internal.com:sddc/hiera.git
+    path: hiera
+    worktrees:
+      production:
+        branch: production
+        path: production
+      qa:
+        branch: qa
+        path: qa
+  facts:
+    url: git@git.egnyte-internal.com:sddc/facts.git
+    path: facts
+    branch: develop
+  roles:
+    url: git@git.egnyte-internal.com:sddc/roles.git
+    path: roles
+    branch: develop
+  profiles:
+    url: git@git.egnyte-internal.com:sddc/profiles.git
+    path: profiles
+    branch: develop
+  module-autossl:
+    url: git@git.egnyte-internal.com:sddc/autossl.git
+    path: modules/autossl
+    branch: develop
